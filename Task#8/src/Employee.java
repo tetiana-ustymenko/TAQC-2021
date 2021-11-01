@@ -36,4 +36,9 @@ public class Employee implements CalculatePay{
         System.out.println("The employee ID: " + this.employeeId);
         System.out.println("Average monthly wage of the employee: " + this.calculatePay());
     }
+    
+    public void output2() {
+        System.out.println("Name of the employee: " + this.name + ". The employee ID: " + this.employeeId);
+    }
+
 }
